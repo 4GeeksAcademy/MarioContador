@@ -1,12 +1,22 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+/* Contenedor principal del contador */
+.contador-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    margin-top: 100px;
+  }
+  
+  /* Estilos para cada caja que contiene un dígito */
+  .digit-box {
+    width: 60px;
+    height: 100px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);}
