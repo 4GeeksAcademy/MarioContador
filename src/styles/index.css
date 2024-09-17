@@ -1,4 +1,4 @@
-/* Contenedor principal del contador */
+
 .contador-container {
     display: flex;
     justify-content: center;
@@ -8,7 +8,6 @@
     margin-top: 100px;
   }
   
-  /* Estilos para cada caja que contiene un dígito */
   .digit-box {
     width: 60px;
     height: 100px;
